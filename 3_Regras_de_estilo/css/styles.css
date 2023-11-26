@@ -12,4 +12,12 @@ main p {
   color: green;
 }
 
+li {
+  color: purple;
+}
+
+ol > li {
+  color: blue;
+}
+
 /*# sourceMappingURL=styles.css.map */
