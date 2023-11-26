@@ -19,3 +19,27 @@ li
 ol
     > li  //Combinando o Nesting com o Seletor de descendência ">" - Todos os filhos "li" de "ol" vão ter cor azul
         color: blue
+
+// Parent Selector
+
+a
+    text-decoration: none
+    color: green
+    transform: .5s
+    padding: 10px
+    border: 1px solid green
+    display: block
+    width: 150px
+    text-align: center
+
+    &:hover // & - parent selector
+        background-color: green
+        color: white
+
+.container
+    background-color: #ccc
+    padding: 20px
+    margin: 20px
+
+    &-content // & - serve também para replicar a classe -> em CSS seria .container-content
+        color: red
