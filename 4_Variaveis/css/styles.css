@@ -6,6 +6,8 @@ h1 {
 p {
   color: #529;
   border: 2px solid red;
+  margin: 12px;
+  padding: 16px;
 }
 
 a {
