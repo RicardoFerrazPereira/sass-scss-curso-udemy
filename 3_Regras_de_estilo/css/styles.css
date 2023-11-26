@@ -1,8 +1,15 @@
-div {
+div, main {
   background: #ddd;
 }
-div p {
+div p, main p {
   color: lightblue;
+}
+
+main .p-vermelho {
+  color: red;
+}
+main p {
+  color: green;
 }
 
 /*# sourceMappingURL=styles.css.map */

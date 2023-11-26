@@ -1,5 +1,12 @@
-div
+div, main
     background: #ddd
 
     p
         color: lightblue
+// Como o css é em cascata, a hierárquia é de baixo para cima 
+// Vai prevalecer o p red
+main
+    .p-vermelho
+        color: red 
+    p
+        color: green
