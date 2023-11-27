@@ -1,5 +1,27 @@
 @import 'variables'
 @import 'button'
+@import 'mixins'
 
 body
     margin: 50px
+
+// Mixins
+
+// @mixin special
+//     color: red 
+//     background-color: yellow
+//     padding: 10px
+//     border: 1px solid red 
+
+//     &:hover
+//         border-color: blue
+//         color: blue
+
+
+.p-esp
+    @include special 
+
+
+h2
+    @include special 
+    @include green
