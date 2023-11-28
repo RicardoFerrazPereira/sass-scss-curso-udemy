@@ -16,3 +16,8 @@
 @mixin espacamento($p, $m)
     padding: $p
     margin: $m
+
+// Mixins parâmetros opcionais -> não podemos colocar argumentos opcionais antes dos obrigatórios 
+
+@mixin borda($style, $color, $width: 1px)
+    border: $width $style $color
