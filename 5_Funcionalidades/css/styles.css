@@ -5,6 +5,12 @@
   border-radius: 5px;
 }
 
+.esp-medio, .esp-menor {
+  font-size: 3rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+}
+
 body {
   margin: 50px;
 }

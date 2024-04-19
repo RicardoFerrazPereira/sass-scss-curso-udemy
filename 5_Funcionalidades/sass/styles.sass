@@ -1,6 +1,7 @@
 @import 'variables'
 @import 'button'
 @import 'mixins'
+@import 'plugins'
 
 body
     margin: 50px
@@ -30,11 +31,13 @@ h2
    @include espacamento(10px, 10px)
    @include borda(solid, red)
    @include colors
+   @extend %font-padrao
 
 .esp-medio
    @include espacamento(15px, 15px)
    @include borda(dotted, blue, 4px)
    @include colors($background: #336699, $font: #991155)
+   @extend %font-padrao
 
 .esp-maior
     @include espacamento(25px, 25px)
@@ -46,3 +49,6 @@ h2
     @include espacamento($pad, $mag)
     @include borda(double, gold, 3px)
     @include colors($font: gold)
+
+
+
