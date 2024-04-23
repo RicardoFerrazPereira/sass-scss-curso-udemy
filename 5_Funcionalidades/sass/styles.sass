@@ -29,15 +29,15 @@ h2
 
 .esp-menor
    @include espacamento(10px, 10px)
-   @include borda(solid, red)
-   @include colors
-   @extend %font-padrao
+   @include borda(solid, red) 
+   @include colors       
+   @extend %font-padrao // Herança
 
 .esp-medio
    @include espacamento(15px, 15px)
    @include borda(dotted, blue, 4px)
    @include colors($background: #336699, $font: #991155)
-   @extend %font-padrao
+   @extend %font-padrao // Herança
 
 .esp-maior
     @include espacamento(25px, 25px)
@@ -50,5 +50,15 @@ h2
     @include borda(double, gold, 3px)
     @include colors($font: gold)
 
+// Cálculo com Sass
 
+.container-menor
+    @include borda(solid, green)
+    width: 100px x 4 / 2
+
+$medida: 4
+.container-maior
+    @include borda(solid, blue)
+    width: 25rem * ($medida / 2)
+    
 

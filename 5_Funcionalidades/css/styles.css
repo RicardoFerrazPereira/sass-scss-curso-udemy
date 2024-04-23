@@ -69,4 +69,14 @@ h2:hover {
   background-color: #fff;
 }
 
+.container-menor {
+  border: 1px solid green;
+  width: 100px x 4/2;
+}
+
+.container-maior {
+  border: 1px solid blue;
+  width: 50rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
